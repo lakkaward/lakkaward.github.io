@@ -7,44 +7,39 @@ const projects = [
   {
     title: "On-Premise LLM Deployment",
     description: "Deployed large language models on local infrastructure optimized for CPU environments, enabling private AI capabilities with reduced operational costs.",
-    technologies: ["Python", "Docker", "CUDA", "Hugging Face", "LLM"],
-    github: "https://github.com/dhananjaylakkawar/llm-deployment",
+    technologies: ["Python", "Docker", "ollama", "Hugging Face", "LLM"],
     demo: "https://llm-demo.example.com"
   },
   {
     title: "Jenkins CI/CD Pipeline with Testing",
     description: "Implemented comprehensive CI/CD pipeline with automated testing, code quality checks, and deployment stages for reliable software delivery.",
     technologies: ["Jenkins", "Docker", "GitHub", "Shell", "JUnit"],
-    github: "https://github.com/dhananjaylakkawar/jenkins-pipeline",
-    demo: "https://jenkins-demo.example.com"
+    github: "https://github.com/lakkawardhananjay/sample_jenkins_CI-CT"
   },
   {
     title: "Advanced DevOps Pipeline",
     description: "Built end-to-end DevOps solution with infrastructure as code, monitoring, alerting, and auto-scaling capabilities for high-availability applications.",
     technologies: ["Kubernetes", "Terraform", "Prometheus", "Grafana"],
     github: "https://github.com/dhananjaylakkawar/devops-pipeline",
-    demo: "https://devops-demo.example.com"
   },
   {
     title: "Effortless 3-Tier Deployment on AWS",
     description: "Developed infrastructure as code templates for quick deployment of scalable three-tier architectures on AWS cloud platform.",
     technologies: ["AWS", "CloudFormation", "EC2", "RDS", "ELB"],
-    github: "https://github.com/dhananjaylakkawar/aws-3tier",
-    demo: "https://aws-demo.example.com"
+    github: "https://github.com/lakkawardhananjay/DC_react-node-mysqlr",
+    TD: "https://deploying-3-tier-application-with-github-actions.hashnode.space/default-guide/three-teir-application-deployment-on-aws-ec2"
   },
   {
     title: "Slide Studio – AI-Powered Presentation Tools",
     description: "Created AI tool that automatically generates professional presentation slides from text input, streamlining content creation process.",
-    technologies: ["Python", "OpenAI API", "React", "GCP"],
-    github: "https://github.com/dhananjaylakkawar/slide-studio",
-    demo: "https://slidestudio.example.com"
+    technologies: ["Python","GCP"],
+    demo: "https://slide-studio.vercel.app"
   },
   {
     title: "Cloud-Powered Data Analytics Pipeline",
     description: "Designed data processing pipeline with real-time analytics capabilities, handling large datasets efficiently using cloud-native services.",
-    technologies: ["GCP", "BigQuery", "DataFlow", "Pub/Sub", "Looker"],
-    github: "https://github.com/dhananjaylakkawar/data-pipeline",
-    demo: "https://analytics-demo.example.com"
+    technologies: ["GCP", "BigQuery", "DataFlow", "cloud fuctions", "Looker"],
+    github: "https://github.com/lakkawardhananjay/data-analyis-with-looker"
   }
 ];
 
