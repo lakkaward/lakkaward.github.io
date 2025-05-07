@@ -54,7 +54,8 @@ const Skills = () => {
               "LLM Deployment", 
               "Generative AI", 
               "Transformers", 
-              "NLP"
+              "NLP",
+               "n8n"
             ]}
           />
           
