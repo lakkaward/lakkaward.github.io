@@ -8,7 +8,7 @@ const projects = [
     title: "On-Premise LLM Deployment",
     description: "Deployed large language models on local infrastructure optimized for CPU environments, enabling private AI capabilities with reduced operational costs.",
     technologies: ["Python", "Docker", "ollama", "Hugging Face", "LLM"],
-    demo: "https://llm-demo.example.com"
+    demo: "https://dypllm.github.io"
   },
   {
     title: "Jenkins CI/CD Pipeline with Testing",
@@ -26,13 +26,13 @@ const projects = [
     title: "Effortless 3-Tier Deployment on AWS",
     description: "Developed infrastructure as code templates for quick deployment of scalable three-tier architectures on AWS cloud platform.",
     technologies: ["AWS", "CloudFormation", "EC2", "RDS", "ELB"],
-    github: "https://github.com/lakkawardhananjay/DC_react-node-mysqlr",
+    github: "https://github.com/lakkawardhananjay/DC_react-node-mysql",
     TD: "https://deploying-3-tier-application-with-github-actions.hashnode.space/default-guide/three-teir-application-deployment-on-aws-ec2"
   },
   {
     title: "Slide Studio – AI-Powered Presentation Tools",
     description: "Created AI tool that automatically generates professional presentation slides from text input, streamlining content creation process.",
-    technologies: ["Python","GCP"],
+    technologies: ["Python","GCP","Cloud Run"],
     demo: "https://slide-studio.vercel.app"
   },
   {
@@ -58,6 +58,7 @@ const Projects = () => {
               technologies={project.technologies}
               github={project.github}
               demo={project.demo}
+              Hashnode={project.Hashnode}
             />
           ))}
         </div>
@@ -71,13 +72,15 @@ const ProjectCard = ({
   description, 
   technologies,
   github,
-  demo 
+  demo,
+  Hashnode
 }: { 
   title: string; 
   description: string; 
   technologies: string[];
   github?: string;
   demo?: string;
+  Hashnode?: string;
 }) => {
   return (
     <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
@@ -108,6 +111,12 @@ const ProjectCard = ({
           <a href={demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
             <ExternalLink className="w-4 h-4 text-blue-700" />
             <span className="text-blue-700">Live Demo</span>
+          </a>
+        </Button>
+        <Button variant="outline" size="sm" asChild className="bg-blue-50 hover:bg-blue-100 border-blue-200">
+          <a href={demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <ExternalLink className="w-4 h-4 text-blue-700" />
+            <span className="text-blue-700">Hashnode</span>
           </a>
         </Button>
       </CardFooter>
