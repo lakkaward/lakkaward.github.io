@@ -31,7 +31,7 @@ const Hero = () => {
             </Button>
             <Button variant="outline" className="flex items-center gap-2 border-blue-600 text-blue-600 hover:bg-blue-50">
               <Linkedin size={18} />
-              <a href="https://www.linkedin.com/in/dhananjaylakkawar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/dhananjay-lakkawar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </Button>
           </div>
         </div>
