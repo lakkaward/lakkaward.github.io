@@ -10,7 +10,7 @@ const Experience = () => {
         <div className="max-w-4xl mx-auto mt-12">
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-blue-200"></div>
+            <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-blue-200 z-0"></div>
             
             {/* Experience Items */}
             <div className="space-y-12">
@@ -63,9 +63,13 @@ const ExperienceItem = ({
   return (
     <div className={`relative ${isLeft ? 'md:pr-8' : 'md:pl-8'} md:w-1/2 ${isLeft ? 'md:ml-0' : 'md:ml-auto'}`}>
       {/* Timeline Dot */}
-      <div className="absolute left-0 md:left-auto md:right-0 top-6 transform translate-x-0 md:translate-x-1/2 w-5 h-5 rounded-full bg-blue-500 border-4 border-white z-10"></div>
+      {isLeft ? (
+        <div className="absolute right-0 top-8 transform translate-x-1/2 w-5 h-5 rounded-full bg-blue-500 border-4 border-white z-10 shadow-md"></div>
+      ) : (
+        <div className="absolute left-0 top-8 transform -translate-x-1/2 w-5 h-5 rounded-full bg-blue-500 border-4 border-white z-10 shadow-md"></div>
+      )}
       
-      <Card className="shadow-lg hover:shadow-xl transition-shadow">
+      <Card className="shadow-lg hover:shadow-xl transition-shadow mt-4">
         <CardContent className="p-6">
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
             <div>
