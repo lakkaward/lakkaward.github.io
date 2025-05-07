@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Research from "@/components/Research";
 import Certifications from "@/components/Certifications";
+import Books from "@/components/Books";
 import Achievements from "@/components/Achievements";
 import Education from "@/components/Education";
 import Contact from "@/components/Contact";
@@ -46,6 +47,7 @@ const Index = () => {
       <Projects />
       <Research />
       <Certifications />
+      <Books />
       <Achievements />
       <Education />
       <Contact />
