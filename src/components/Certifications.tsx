@@ -24,7 +24,7 @@ const certifications = [
   {
     name: "Certified Kubernetes Administrator (CKA)",
     issuer: "CNCF",
-    icon: "/lovable-uploads/8edc4fa5-0845-4b19-bf17-7bd0b3ed4931.png",
+    icon: "/lovable-uploads/CKA.png",
     completed: false
   }
 ];
