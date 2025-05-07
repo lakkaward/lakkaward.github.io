@@ -46,7 +46,7 @@ const Research = () => {
               <div className="mt-4">
                 <Button variant="outline" size="sm" asChild>
                   <a 
-                    href="/path-to-your-research-paper.pdf" 
+                    href="/lovable-uploads/DSL-LLM Main.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
