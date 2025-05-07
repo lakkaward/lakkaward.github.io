@@ -4,16 +4,15 @@ on:
   push:
     branches:
       - main
-    # Only trigger if the commit message contains '[deploy]'
-    if: contains(github.event.head_commit.message, '[deploy]')
 
 permissions:
-  contents: write  # Allow write access to repository contents (push to gh-pages)
-  pages: write     # Allow deployment to GitHub Pages (needed depending on repo settings)
-  id-token: write  # Allow authentication using OIDC (OpenID Connect)
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
+    if: contains(github.event.head_commit.message, '[deploy]')  # ✅ Correct location for this condition
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -38,4 +37,4 @@ jobs:
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist  # Folder where build files are generated
+          folder: dist
