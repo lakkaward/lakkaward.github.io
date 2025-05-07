@@ -131,16 +131,16 @@ const Contact = () => {
               <ContactItem 
                 icon={<Linkedin className="h-5 w-5 text-blue-600" />}
                 title="LinkedIn"
-                value="linkedin.com/in/dhananjaylakkawar"
-                href="https://linkedin.com/in/dhananjaylakkawar"
+                value="linkedin.com/in/dhananjay-lakkawar"
+                href="https://linkedin.com/in/dhananjay-lakkawar"
                 isExternal
               />
               
               <ContactItem 
                 icon={<Github className="h-5 w-5 text-blue-600" />}
                 title="GitHub"
-                value="github.com/dhananjaylakkawar"
-                href="https://github.com/dhananjaylakkawar"
+                value="github.com/lakkawardhananjay"
+                href="https://github.com/lakkawardhananjay"
                 isExternal
               />
             </div>
