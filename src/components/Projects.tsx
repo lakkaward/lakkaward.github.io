@@ -21,8 +21,8 @@ const projects = [
     "AWS S3",
     "Alertmanager"
   ],
-  github: "https://github.com/lakkawardhananjay/AI-incident-BOT",
-}
+  github: "https://github.com/lakkawardhananjay/AI-incident-BOT"
+},
 
   {
     title: "Jenkins CI/CD Pipeline with Testing",
