@@ -6,13 +6,13 @@ const education = [
   {
     degree: "Bachelor of Technology (Computer Science)",
     institution: "Dr. D.Y. Patil Pratishthan's College of Engineering",
-    period: "2020-2024",
+    period: "2022-2025",
     grade: "CGPA: 7.1/10"
   },
   {
     degree: "Diploma in Computer Science",
     institution: "Shri Sai Polytechnic",
-    period: "2017-2020",
+    period: "2019-2022",
     grade: "83.94%"
   }
 ];
