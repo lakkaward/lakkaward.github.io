@@ -10,18 +10,27 @@ const projects = [
     technologies: ["Python", "Docker", "ollama", "Hugging Face", "LLM"],
     demo: "https://dypllm.github.io"
   },
+{
+  title: "AI-Driven Incident Management & Self-Healing System",
+  description: "AI-powered, containerized monitoring solution that detects and resolves incidents in real-time, integrating Prometheus, Grafana, and AWS S3 for continuous improvement.",
+  technologies: [
+    "EC2",
+    "Docker-Compose",
+    "Opentofu",
+    "Prometheus",
+    "AWS S3",
+    "Alertmanager"
+  ],
+  github: "https://github.com/lakkawardhananjay/AI-incident-BOT",
+}
+
   {
     title: "Jenkins CI/CD Pipeline with Testing",
     description: "Implemented comprehensive CI/CD pipeline with automated testing, code quality checks, and deployment stages for reliable software delivery.",
     technologies: ["Jenkins", "Docker", "GitHub", "Shell", "JUnit"],
     github: "https://github.com/lakkawardhananjay/sample_jenkins_CI-CT"
   },
-  {
-    title: "Advanced DevOps Pipeline",
-    description: "Built end-to-end DevOps solution with infrastructure as code, monitoring, alerting, and auto-scaling capabilities for high-availability applications.",
-    technologies: ["Kubernetes", "Terraform", "Prometheus", "Grafana"],
-    github: "https://github.com/dhananjaylakkawar/devops-pipeline",
-  },
+ 
   {
     title: "Effortless 3-Tier Deployment on AWS",
     description: "Developed infrastructure as code templates for quick deployment of scalable three-tier architectures on AWS cloud platform.",
