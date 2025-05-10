@@ -11,10 +11,11 @@ const About = () => {
           <Card>
             <CardContent className="p-6 md:p-8">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Highly motivated and certified Cloud and DevOps Engineer with hands-on experience in 
-                scalable deployments using CI/CD, Infrastructure as Code (IaC), LLM optimization, and 
-                cloud platforms (GCP, AWS). I bring strong leadership, communication, and collaboration 
-                skills to every project, ensuring efficient and effective solutions for complex technical challenges.
+              Certified Cloud and DevOps Engineer with hands-on experience in scalable infrastructure 
+              deployment using CI/CD pipelines, Infrastructure as Code (Terraform, CloudFormation), and 
+              cloud platforms (AWS, GCP). Skilled in automating workflows, monitoring systems, and 
+              driving performance optimization.Proven ability to lead cross-functional teams and deliver resilient,
+              production-ready solutions.
               </p>
               
               <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
